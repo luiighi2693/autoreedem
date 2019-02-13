@@ -41,9 +41,12 @@ public class MainController {
 	@PostMapping({"redeemcampaign"})
 	public ResponseEntity<RedeemCampaignResponse> getRedeemCampaign(@RequestBody RedeemCampaignRequest redeemCampaignRequest, @RequestParam("nSeq") String nSeq) {
 		this.log.info("Comenzando Servicio: getRedeemCampaign() " + redeemCampaignRequest);
+		this.log.info("Comenzando Servicio: getRedeemCampaign() nSeq: " + nSeq);
+
 		CampaignInformationResponse response = ((AuthClient)context
 				.getBean(soapAuthClient))
 				.getCampaingInformation(nSeq).getGetCampaignInformationResult();
+		this.log.info("CampaignInformationResponse " + response);
 		RedeemCampaignResponse redeemCampaignResponse;
 		if (response.isAutoRedeemable() && response.getExcluded().equalsIgnoreCase("0") && response.getProductStatusId().equalsIgnoreCase("1")) {
 			redeemCampaignResponse = ((AuthClient)context
@@ -65,9 +68,11 @@ public class MainController {
 	@PostMapping({"excludeproduct"})
 	public ResponseEntity<ExcludeProductResponse> doExcludeProduct(@RequestBody ExcludeProductRequest excludeProductRequest, @RequestParam("nSeq") String nSeq) {
 		this.log.info("Comenzando Servicio: getExcludeProduct() " + excludeProductRequest);
+		this.log.info("Comenzando Servicio: getExcludeProduct() nSeq: " + nSeq);
 		CampaignInformationResponse response = ((AuthClient)context
 				.getBean(soapAuthClient))
 				.getCampaingInformation(nSeq).getGetCampaignInformationResult();
+		this.log.info("CampaignInformationResponse " + response);
 		ExcludeProductResponse excludeProductResponse;
 		if (response.isAutoRedeemable() && response.getExcluded().equalsIgnoreCase("0") && response.getProductStatusId().equalsIgnoreCase("1")) {
 			excludeProductResponse = ((AuthClient)context

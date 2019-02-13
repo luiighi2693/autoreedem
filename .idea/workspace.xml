@@ -19,11 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/auth/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="73" column="86" lean-forward="true" selection-start-line="73" selection-start-column="86" selection-end-line="73" selection-end-column="86" />
+            <state relative-caret-position="292">
+              <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,19 +42,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/auth/controller/AuthClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/ws/client/CampaignInformationResponse.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="35" />
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,15 +99,15 @@
         <option value="$PROJECT_DIR$/../test-proxy-autoredeem/autoredeem-soap-api/src/main/java/ol/auto/config/OLOrchestrationAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/../test-proxy-autoredeem/autoredeem-soap-api/pom.xml" />
         <option value="$PROJECT_DIR$/../test-proxy-autoredeem/autoredeem-soap-api/src/main/java/com/autoredeem_soap_api/openlegacy/AutoredeemSoapApiApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auth/controller/AuthClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/auth/autoredeemws/RedeemCampaignResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/auth/autoredeemws/ExcludeProductResponse.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/target/generated-sources/xjc/autoredeemws/RedeemCampaignResponse.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/xjc/autoredeemws/ExcludeProductResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/auth/autoredeemws/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/auth/autoredeemws/CampaignInformationResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auth/controller/AuthClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/auth/controller/MainController.java" />
       </list>
     </option>
@@ -138,12 +142,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="om_autoredeem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="om_autoredeem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="jaxb2" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -243,7 +241,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550079273834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550079494642" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-proxy-autoredeem/autoredeem-soap-api-nms/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -382,12 +380,12 @@
       <workItem from="1549923341829" duration="739000" />
       <workItem from="1549931840643" duration="3233000" />
       <workItem from="1549983811458" duration="6288000" />
-      <workItem from="1550065989972" duration="5171000" />
+      <workItem from="1550065989972" duration="6073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27181000" />
+    <option name="totallyTimeSpent" value="28083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -485,7 +483,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/auth/controller/MainController.java</url>
-          <line>47</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -695,25 +693,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="108" column="89" selection-start-line="108" selection-start-column="89" selection-end-line="108" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auth/controller/AuthClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -862,10 +845,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auth/controller/AuthClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/auth/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="73" column="86" lean-forward="true" selection-start-line="73" selection-start-column="86" selection-end-line="73" selection-end-column="86" />
+        <state relative-caret-position="292">
+          <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
