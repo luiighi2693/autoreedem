@@ -1,10 +1,6 @@
 package auth.controller;
 
 import auth.autoredeemws.*;
-import auth.wsdl.ChangePassAD;
-import auth.wsdl.ChangePassADResponse;
-import auth.wsdl.LoginAD;
-import auth.wsdl.LoginADResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 import org.springframework.ws.soap.client.core.SoapActionCallback;
