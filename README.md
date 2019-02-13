@@ -1,0 +1,1 @@
+open-info-auth-service
