@@ -49,6 +49,7 @@ public class MainController {
 		this.log.info("CampaignInformationResponse " + response);
 		RedeemCampaignResponse redeemCampaignResponse;
 		if (response.isAutoRedeemable() && response.getExcluded().equalsIgnoreCase("0") && response.getProductStatusId().equalsIgnoreCase("1")) {
+			redeemCampaignRequest.setPromoKey(nSeq);
 			redeemCampaignResponse = ((AuthClient)context
 					.getBean(soapAuthClient)).getRedeemCampaign(redeemCampaignRequest);
 			redeemCampaignResponse.setExecuted(Boolean.TRUE);

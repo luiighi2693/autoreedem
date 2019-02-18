@@ -1,6 +1,7 @@
 package auth.controller;
 
 import auth.autoredeemws.*;
+import auth.test.SimpleXMLParser;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 import org.springframework.ws.soap.client.core.SoapActionCallback;
@@ -31,14 +32,19 @@ public class AuthClient extends WebServiceGatewaySupport {
     }
 
     public RedeemCampaignResponse getRedeemCampaign(RedeemCampaignRequest request) {
-        return (RedeemCampaignResponse) getWebServiceTemplate()
-                .marshalSendAndReceive(soapAuthEndpoint, request,
-                        new SoapActionCallback(getRedeemCampaignAction));
+        DoRedeemCampaign req = new DoRedeemCampaign();
+        req.setRequest(request);
+
+        return ((DoRedeemCampaignResponse) getWebServiceTemplate()
+                .marshalSendAndReceive(soapAuthEndpoint, req,
+                        new SoapActionCallback(getRedeemCampaignAction))).getDoRedeemCampaignResult();
     }
 
     public ExcludeProductResponse doExcludeProduct(ExcludeProductRequest request) {
-        return (ExcludeProductResponse) getWebServiceTemplate()
-                .marshalSendAndReceive(soapAuthEndpoint, request,
-                        new SoapActionCallback(doExcludeProductAction));
+        DoExcludeProduct req = new DoExcludeProduct();
+        req .setRequest(request);
+        return ((DoExcludeProductResponse) getWebServiceTemplate()
+                .marshalSendAndReceive(soapAuthEndpoint, req,
+                        new SoapActionCallback(doExcludeProductAction))).getDoExcludeProductResult();
     }
 }
