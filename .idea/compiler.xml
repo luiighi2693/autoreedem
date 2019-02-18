@@ -6,15 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="autoredeem-proxy" />
+        <module name="om_autoredeem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="autoredeem-proxy" target="1.8" />
-      <module name="autoredeem-soap-api" target="1.8" />
-      <module name="autoredeem-soap-sdk" target="1.8" />
-      <module name="openlegacy-java-rpc-new" target="1.5" />
-      <module name="openlegacy-orchestration-rest-new" target="1.5" />
+      <module name="om_autoredeem" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

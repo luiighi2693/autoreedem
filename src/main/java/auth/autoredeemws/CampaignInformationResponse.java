@@ -103,7 +103,7 @@ public class CampaignInformationResponse {
     @XmlElement(name = "ProductId")
     protected String productId;
 
-    @XmlElement(name = "ProductStatusId")
+    @XmlElement(name = "productStatusId")
     protected String productStatusId;;
 
     /**

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/autoredeem-proxy.iml" filepath="$PROJECT_DIR$/autoredeem-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/om_autoredeem.iml" filepath="$PROJECT_DIR$/om_autoredeem.iml" />
     </modules>
   </component>
 </project>
